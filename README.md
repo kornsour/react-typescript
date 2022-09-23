@@ -56,3 +56,9 @@ When to use:
   - When we want a variable to have a type that can't be inferred
 - Type inference
   - Always!
+
+The "any" type:
+
+- A type, just as 'string' or 'boolean' are
+- Means TS has no idea what this is - can't check for correct property references
+- Avoid variables with 'any' at all costs
