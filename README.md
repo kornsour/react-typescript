@@ -98,3 +98,23 @@ The "any" type:
     - We only use the private modifier to restrict methods other developers can call
       - For example, if we don't trust others to call a specific method becuase it might break stuff
   - protected: This method can be called by other methods in this class, or by other methods in child classes
+- Why do we care?
+  - Interfaces + Classes = How we get really strong code reuse in TS
+
+## React
+
+Creating a project:
+`npx create-react-app react-typescript --template typescript`
+
+### JSX
+
+- Will the file contain a React component or any kind of JSX?
+  - Use the extension '.tsx'
+- No JSX?
+  - Use '.ts'
+
+### Props
+
+- TS Checks
+  - Are we providing the correct props to the child prop when we show it in the parent prop?
+  - Are we using the correclty named and typed props in the child prop?
